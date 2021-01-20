@@ -1,0 +1,24 @@
+.box > h2 {
+    
+
+transition: 200ms;
+width: 6vw;
+height: 10.67vh;
+margin: 2px;
+border-radius: 15px;
+background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+background-image: radial-gradient(circle, #6bbbd1, #51a8c9, #3994c0, #2780b6, #144974, #1e5ea0, #214f96, #26408a, #253380, #242675, #25186a, #25065e);
+background-image: linear-gradient(to right bottom, #6bbbd1, #51a8c9, #3994c0, #2780b6, #216caa, #1e5ea0, #183868, #26408a, #101846, #242675, #25186a, #25065e);
+
+}
+
+.box:hover > h2{
+    transition: 400ms;
+    background-image: radial-gradient(circle, #6bbbd1, #51a8c9, #3994c0, #2780b6, #061f8d, #1e5ea0, #214f96, #26408a, #253380, #242675, #25186a, #25065e);
+    scale:0.57;
+    transform: rotatez(180deg);
+    box-shadow: 5px 5px 23px 05px #c4b9b9a1;
+    border-radius: 25px;
+    
+   
+}
